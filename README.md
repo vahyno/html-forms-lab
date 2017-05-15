@@ -12,7 +12,7 @@ For each challenge, make sure you are working in the correct folder!
 > **Watch Out**: It's easy to code in the wrong `index.html` file!
 
 ## Challenges
-Please use only html to solve the following mini-challanges.
+Please use **only HTML** to solve the following mini-challanges.
 
 1. **Login Form**. Create an html `form` with two inputs: one for a username (named "username"), the other for password (named "password") (normally you don't see your password when you type it, so make sure it's blocked out!). What happens in the URL when you click submit?
 
@@ -31,7 +31,7 @@ Please use only html to solve the following mini-challanges.
 
 6. **Movie Search**. Create an html `form` that searches for movies on the OMDB API by title and by year. You will need to take care to use the correct query parameters. The only way to find out what they are is to [read their documentation](http://omdbapi.com/#usage).
 
-7. Bonus: **Return of the Movie Search**. It's great that we can find find data about movies using the Open Movie Database, but it's not very helpful having all that data *somewhere else*. It would be awesome if we could "pull in" that data and use it on our webpage. It's time to learn about AJAX! Your goal is to figure out how to use [jQuery's `get` method](api.jquery.com/jQuery.get/) to request information (JSON) about the movie "Primer". Can you console.log the movie description? HINT: start by hitting the endpoint directly, then figure out how to "drill down" through the json object to get to the data you want.
+7. Bonus: **Return of the Movie Search**. It's great that we can find find data about movies using the Open Movie Database, but it's not very helpful having all that data *somewhere else*. It would be awesome if we could "pull in" that data and use it on our webpage. It's time to learn about AJAX! Your goal is to figure out how to use [jQuery's `get` method](http://api.jquery.com/jQuery.get/) to request information (JSON) about the movie "Primer". Can you console.log the movie description? HINT: start by hitting the endpoint directly, then figure out how to "drill down" through the json object to get to the data you want.
 
 ## Bonuses
 * Make you forms accessible by using `label` and user-friendly but using `placeholder`.
