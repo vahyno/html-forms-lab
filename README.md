@@ -29,9 +29,7 @@ Please use **only HTML** to solve the following mini-challanges.
 
 5. **Github Search**. Create an html `form` that searches github for code examples that match a specific query (`q`) and language (`l`). For example, search results for "form select" in "HTML" files: https://github.com/search?q=form%20select&l=HTML
 
-6. **Movie Search**. Create an html `form` that searches for movies on the OMDB API by title and by year. You will need to take care to use the correct query parameters. The only way to find out what they are is to [read their documentation](http://omdbapi.com/#usage).
-
-7. Bonus: **Return of the Movie Search**. It's great that we can find find data about movies using the Open Movie Database, but it's not very helpful having all that data *somewhere else*. It would be awesome if we could "pull in" that data and use it on our webpage. It's time to learn about AJAX! Your goal is to figure out how to use [jQuery's `get` method](http://api.jquery.com/jQuery.get/) to request information (JSON) about the movie "Primer". Can you console.log the movie description? HINT: start by hitting the endpoint directly, then figure out how to "drill down" through the json object to get to the data you want.
+6. **Music Search**. Create an html `form` that searches for music on the iTunes API. You will need to take care to use the correct query parameters. The only way to find out what they are is to [read their documentation](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/).
 
 ## Bonuses
 * Make you forms accessible by using `label` and user-friendly but using `placeholder`.
